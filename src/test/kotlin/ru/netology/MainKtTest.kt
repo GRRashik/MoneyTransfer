@@ -12,7 +12,7 @@ class MainKtTest {
     fun transferVkPayTest(){
         //arrange
         val ammount = 123456
-        val expectedResult = 123456
+        val expectedResult = 23456
         //act
         val actualResult = transferVkPay(ammount)
         //assert
